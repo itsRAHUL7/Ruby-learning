@@ -14,5 +14,12 @@ puts  "hello" =~ /llo/
  #common Regex pattern 
 
  #(.) any one character 
-
  puts "xxcat" =~ /.t/ 
+
+
+ #digit (\d)
+ puts "abcde4rrr" =~ /\d/ 
+
+
+#  word  character (\w)
+puts "@@@hellllllo" =~ /\w/ 
