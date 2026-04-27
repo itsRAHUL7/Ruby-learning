@@ -32,7 +32,7 @@
 class Calculator
 
   def calculate
-    puts "Enter numbers (space separated):" # 1,2,3  =  1.0 , 2.0 ,3.0 
+    puts "Enter numbers:" 
     nums = gets.chomp.split.map(&:to_f)
 
     puts "Enter operator (+, -, *, /):"
