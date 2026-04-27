@@ -127,7 +127,7 @@ puts "Hello" =~ /hello/i
 
 password = "abc123456"
 if password =~ /^(?=.*\d).{6,}$/
-	puts "strong password"
+puts "strong password"
 else 
-	puts "weak password"
+puts "weak password"
 end 

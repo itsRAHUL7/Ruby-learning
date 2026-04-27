@@ -256,7 +256,6 @@ train.start
 
 
 # Singelton method  (method belongs to only one object)
-
 obj1 = "hiii"
 obj2 = "hello"
 
