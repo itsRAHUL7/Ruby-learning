@@ -75,7 +75,7 @@ end
 saving = SavingsAccount.create_account("saving", "Rahul", "Mumbai", "80902238", 500)
 current = CurrentAccount.create_account("current", "Rohit", "Delhi", "7689678083", 1000)
 
-bank = BankAccount.create_account("saving", "Rohan", "Delhi", "76896780", 10)
+bank = BankAccount.create_account("saving", "Rohan", "Delhi", "76896780", 100)
 puts saving.deposit(50)
 puts bank.deposit(100)
 puts current.deposit(200)
